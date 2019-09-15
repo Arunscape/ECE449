@@ -1,0 +1,7 @@
+Q: Why is defuzzification an important step when using fuzzy sets?
+
+A: At the end of our analysis in the fuzzy domain, we want our final output to be quantifiable in crisp logic, so that we can actually do something with it in the crisp domain. 
+
+reference: 
+Chapter 7
+https://doi.org/10.1016/B978-1-4377-7807-6.10007-5
