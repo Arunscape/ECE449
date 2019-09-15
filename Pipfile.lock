@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9fec3c9447b7c8a0e7f48ee58e1e0456b4443f756cfd9c565bec61bf80beea39"
+            "sha256": "c3cf81345ded5a3a2a1e37dcae89e52a8b992d447b634033f0746fec5dabc84d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -465,6 +465,13 @@
                 "sha256:b91e7412587e6cfe1644696538f73baf5611e837be5406633218443b2827c6d9"
             ],
             "version": "==4.5.5"
+        },
+        "scikit-fuzzy": {
+            "hashes": [
+                "sha256:249840a58de98b734149ffcf12aee98091d6ecf41b1fb96012cff0c6b91357a8"
+            ],
+            "index": "pypi",
+            "version": "==0.4.1"
         },
         "scikit-image": {
             "hashes": [

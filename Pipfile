@@ -11,6 +11,7 @@ matplotlib = "*"
 ipykernel = "*"
 jupyter = "*"
 scikit-image = "*"
+scikit-fuzzy = "*"
 
 [requires]
 python_version = "3.7"
