@@ -11,6 +11,9 @@ matplotlib = "*"
 jupyter = "*"
 scikit-image = "*"
 scikit-fuzzy = "*"
+jupyterthemes = "*"
+black = "*"
+jupyter-contrib-nbextensions = "*"
 
 [requires]
 python_version = "3.7"
