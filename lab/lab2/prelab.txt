@@ -1,0 +1,24 @@
+A decision matrix is a bunch of values in rows and columns. 
+It allows for a list of options to be narrowed down to a single choice for problems in which multiple dimensions must be considered
+This is useful in the context of control systems.
+That is, we can have a list of options on the left side of the table, and the factors on the top
+
+Weights are then assigned for each factor. These weights are fuzzy values which come from the fuzzy rule sets.
+These elements can be found using the max-min composition of the related fuzzy relations.
+Finally, to get the resulting decision, we can multiply each weight by each element value found using the max-min composition, 
+sum up each row, and then pick the option with the highest sum to arrive at a decision.
+
+
+
+        | x  y  z   | sum
+--------------------------
+Weights | #  #  #   |
+--------------------------
+Option 1|           | ##
+Option 2|           | ##
+Option 3|           | ##
+--------------------------
+
+Sources:
+http://www.cocreativity.com/handouts/fuzzy.pdf
+https://en.wikipedia.org/wiki/Decision_matrix
