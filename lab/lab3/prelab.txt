@@ -1,0 +1,19 @@
+Read through the code. What kind of models will be used in this lab?
+Explain why the differentiability of an activation function plays an important role in the learning of these neural networks. Why might the linear activation function be a poor choice in some cases?
+
+
+We will be using the perceptron model.
+
+
+
+Differentiability is important so that we can do back propagation
+
+A linear activation function is usually a poor choice, since the output would
+then be just a linear transformation of the input. In other words, it would just
+as easily be represented as a matrix multiplication, so the outputs would 
+generally not be very interesting. 
+
+//Differentiability is important, so that we can find a direction to minimize error
+//in the error space. When the activation function is differentiable, we can then
+//go in the direction which is the negative gradient in the error space to
+//minimize error.
