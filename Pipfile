@@ -20,6 +20,9 @@ pandoc = "*"
 latex = "*"
 nbconvert = "*"
 weasyprint = "*"
+sklearn = "*"
+scipy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
