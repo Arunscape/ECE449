@@ -1,0 +1,23 @@
+What is the curse of dimensionality? Why is dimensionality reduction even necessary?
+
+Good training data needs to be accurate and complete.
+For each dimension added, the amount of training data needed to 
+obtain an accurate training result would increase exponentially.
+This causes a lot of problems like, obtaining so much data in the first place,
+the space needed to store so much data, the time needed to train the
+network, and so on. Without reducing the number of dimensions, it would
+be computationally expensive, and infeasable to train the network. 
+
+In most cases, though, if the dimensions are reduced, the data can still be
+represented accurately, and it makes it more feasible to process.
+
+For example, if we have some values x=1,2,3,4,5,6,7,8,9,10, 
+and one feature is added, all of a sudden the dimension space increases
+to 100. One can imagine how quickly this will scale when more features
+are added. In reality, though the data only needs 10 units in the space to
+fully represent it, and we can reduce the number of dimensions by 
+considering the features that actually have an impact, and ignoring the
+features that don't have a meaningful effect. 
+
+
+
