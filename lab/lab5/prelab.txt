@@ -1,0 +1,22 @@
+Describe and compare roulette wheel (fitness proportional) and ranked selection mechanisms.
+
+Fitness proportional:
+Parents are selected with bias corresponding to their fitness. 
+
+Rank selection:
+All individuals are ranked according to their fitness and and are sorted
+Then, selection is applied based on the rankings based on the relative
+performance of the individuals. The absolute values of the fitness are
+discarded.
+
+
+Both are similar, but the difference is that with fitness proportional, the
+percentage of the wheel allocated (or the likelihood of the individual to be
+selected) is based on the fitness function, while with ranked selection, the
+portion allocated on the wheel does not depend on the fitness function.
+
+
+i.e. in ranked selection, the top ranking individual will always be allocated
+the same percentage of the wheel, while with the roulette wheel method,
+the highest ranking individual will still get the 'bigger piece of the pie' but
+the actual amount depends on the individual's fitness function. 
